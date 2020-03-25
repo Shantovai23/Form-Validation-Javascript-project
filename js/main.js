@@ -11,7 +11,7 @@ function validation(){
         return false;
     }
     if((userName.length<=2) || (userName.length>=20)){
-        document.getElementById("usererror").innerHTML="*Username length must be between 2 to 20";
+        document.getElementById("usererror").innerHTML="*Username length must be between 3 to 20";
         return false;
     }
     if(!isNaN(userName)){
@@ -61,7 +61,7 @@ function validation(){
         return false;
     }
     if(email.indexOf("@")==-1){
-        document.getElementById("validemail").innerHTML="*Missing @"
+        document.getElementById("validemail").innerHTML="*Missing @";
         return false;
     }
 }
