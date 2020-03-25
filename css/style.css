@@ -1,0 +1,41 @@
+@import url(./fonts.css);
+@import url(./partials/variable.css);
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+/*START-NAV*/
+
+.logo{
+    font-family: "Roboto",cursive;
+    font-weight: 700;
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+.nav-link{
+    font-family:var(--roboto) ;
+    text-transform:uppercase ;
+    font-weight: 200;
+    padding: 1.7rem;
+    color:var(--title-color);
+}
+.nav-item.active{
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+.nav-item a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+
+
+/*END-NAV*/
+ 
